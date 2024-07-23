@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ContenedorPrincipal{
+    width: 100vw;
+    height: 60vw;
+    background-color: #fffcf2;
+    display: flex;
+}
+.div1CampusShop{
+    width: 25vw;
+}
+.div2Productos{
+    width: 72vw;
+    height: 50vw;
+    border: 1px solid #403d39;
+    background-color: #ccc5b9;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+.texto1{
+    font-size: 3vw;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-bottom: 6vw;
+    margin-top: 3vw;
+}
+.prod1{
+    display: flex;
+    margin-left: 3vw;
+}
+.icon{
+    width:2.5vw;
+    height: 2.5vw;
+}
+.icon2{
+    margin-top: 6vw;
+    width: 2.5vw;
+    height:2.5vw;
+}
+.texto2, .texto2h{
+    font-size: 2vw;
+    color: black;
+    padding-bottom: 1.5vw;
+    margin-left: 1vw;
+}
+.contCarro{
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+}
+.texto3{
+    font-size: 2vw;
+    margin-top: 6vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 1vw;
+}
+.numero{
+    margin-top: 6vw;
+    font-size: 2vw;
+    width: 3vw;
+    height: 3vw;
+    border: 1px solid #403d39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+.texto4{
+    margin-top: 10vw;
+    width: 25vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+}
+.texto{
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-left: 1.5vw;
+}
+.contimg{
+    display: flex;
+    width: 19vw;
+}
+.imagen{
+    width: 14.5vw;
+    margin-left: 3vw;
+    height: 15.5vw;
+    border-radius: 2vw;
+    margin-top: 1vw;
+}
+.uno{
+    margin-top: 0.6vw;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+.numAgregar{
+    width: 14.5vw;
+    display: flex;
+    font-size: 1.5vw;   
+    margin-top: 0.5vw;
+}
+.numPrecio{
+    margin-left: 1vw;
+}
+.agregar{
+    background-color:  #d5bdaf;
+    border-radius: 1vw;
+    margin-left: 2vw;
+    width: 6vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    color: rgb(43, 2, 2);
+}
+.contimg2{
+    width: 19vw;
+    margin-left: -70vw;
+    margin-top: 22vw;
+}
+.contPrecio{
+    width: 14.5vw;
+    border-radius: 2vw;
+    height: 5.5vw;
+    margin-top: -3.5vw;
+    margin-left: 3vw;
+    position: absolute;
+    background-color: #fffcf2;
+    border: 1px solid #ccc5b9;
+}
+.texto2h{
+    background-color:  #d5bdaf;
+    border-radius: 1vw;
+    width: 18.2vw;
+}
