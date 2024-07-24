@@ -60,7 +60,7 @@
 }
 .texto3{
     font-size: 1.5vw;
-    margin-top: 6.5vw;
+    margin-top: 6.4vw;
     height: 2vw;
     display: flex;
     justify-content: center;
@@ -109,29 +109,35 @@
     margin-left: 1vw;
 }
 .numAgregar{
-    width: 14.5vw;
+    width: 13.5vw;
     display: flex;
     font-size: 1.5vw;   
     margin-top: 0.5vw;
 }
 .numPrecio{
     margin-left: 1vw;
+    width: 6vw;
+    width: 9vw;
 }
 .agregar{
     background-color:  #d5bdaf;
     border-radius: 1vw;
-    margin-left: 2vw;
     width: 6vw;
     height: 2vw;
-    font-family: child;
     display: flex;
     justify-content: center;
     color: rgb(43, 2, 2);
+    font-family: child;
 }
 .contimg2{
     width: 19vw;
     margin-left: -70vw;
     margin-top: 22vw;
+}
+.contimg3{
+    width: 19vw;
+    margin-top: -16.8vw;
+    margin-left: 17.5vw;
 }
 .contPrecio{
     width: 14.5vw;
@@ -142,7 +148,6 @@
     position: absolute;
     background-color: #fffcf2;
     border: 1px solid #ccc5b9;
-
 }
 .texto2h{
     background-color:  #d5bdaf;

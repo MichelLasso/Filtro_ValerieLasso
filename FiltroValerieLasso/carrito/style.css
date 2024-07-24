@@ -1,10 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@font-face {
+    font-family: child;
+    src: url(../fonts/Kinder-Child.ttf);
 }
 .ContenedorPrincipal{
     width: 100vw;
-    height: 60vw;
+    height: 55vw;
     background-color: #fffcf2;
     display: flex;
 }
@@ -13,11 +18,14 @@
 }
 .div2Productos{
     width: 72vw;
-    height: 50vw;
+    height: 47vw;
     border: 1px solid #403d39;
     background-color: #ccc5b9;
     margin-top: 3vw;
     border-radius: 2vw;
+}
+.link{
+    text-decoration: none;
 }
 .texto1{
     font-size: 3vw;
@@ -26,6 +34,7 @@
     justify-content: center;
     color: black;
     padding-bottom: 6vw;
+    font-family: child;
     margin-top: 3vw;
 }
 .prod1{
@@ -42,7 +51,7 @@
     height:2.5vw;
 }
 .texto2, .texto2h{
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: black;
     padding-bottom: 1.5vw;
     margin-left: 1vw;
@@ -52,8 +61,21 @@
     justify-content: center;
     width: 25vw;
 }
+#borrar, #borrar2,#borrar3{
+    opacity: 0;
+}
+#borrar:checked ~.rectangle{
+    display: none;
+}
+#borrar2:checked ~.rectangle2{
+    display: none;
+}
+#borrar3:checked ~.rectangle3{
+    display: none;
+}
+
 .texto3{
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: 6vw;
     height: 2.5vw;
     display: flex;
@@ -62,6 +84,9 @@
     background-color:  #d5bdaf;
     border-radius: 1vw;
     width: 8vw;
+    padding-top: 0.5vw;
+    color: black;
+    text-decoration: none;
 }
 .numero{
     margin-top: 6vw;
@@ -86,17 +111,26 @@
     font-size: 3vw;
     margin-top: 1vw;
     margin-left: 1.5vw;
+    font-family: child;
 }
 .contimg{
     display: flex;
     width: 19vw;
 }
 .imagen{
-    width: 5.5vw;
+    width: 6vw;
     margin-left: 4vw;
-    height: 8.5vw;
+    height: 10vw;
     border-radius: 2vw;
-    margin-top: 1vw;
+    
+}
+.imagen3{
+    width: 9vw;
+    height: 9.7.1vw;
+    margin-left: 2vw;
+}
+.imagen4{
+    margin-left: 3vw;
 }
 .uno{
     margin-top: 0.6vw;
@@ -142,11 +176,13 @@
     border-radius: 1vw;
     width: 18.2vw;
 }
-.rectangle{
-    margin-top: 2vw;
+
+.rectangle, .rectangle2, .rectangle3{
     width: 68vw;
-    background-color: #fffcf2;
+    background-color: #ffffff;
+    border: 2px solid #fffcf2;
     margin-left: 2vw;
+    margin-top: -0.4vw;
     height: 10vw;
     display: flex;
     border-radius: 2vw;
@@ -159,19 +195,34 @@
     font-size: 1.5vw;
     margin-top: 1vw;
 }
-.caja2,.caja4{
+.caja2,.caja4,.caja8,.caja12{
     margin-left: 8vw;
     margin-top: 1.5vw;
 }
-.caja3{
+.caja3,.caja7,.caja11{
     margin-left: 3vw;
     margin-top: 1.5vw;
-
+}
+.caja5{
+    margin-top: 1.5vw;
+}
+.caja6{
+    margin-top: 1.5vw;
+    margin-left: 10vw;
+}
+.caja9{
+    margin-top: 1.5vw;
+}
+.caja10{
+    margin-left: 9.5vw;
+    margin-top: 1.5vw;
 }
 .input{
     width: 8vw;
     margin-left: -0.4vw;
     margin-top: 0.5vw;
+    height: 2vw;
+    font-size: 1vw;
 }
 .imagen2{
     width: 6vw;
@@ -189,14 +240,15 @@
     justify-content: center;
     border-radius: 1vw;
     border: none;
+    font-family: child;
 }
 .comprar{
     background-color: #403d39;
     width: 30vw;
     color: white;
     border-radius: 1vw;
-    height: 6.2vw;
-    margin-top: -4vw;
+    height: 6vw;
+    margin-top: -3.5vw;
     margin-left: 40vw;
     font-size: 2vw;
     padding-top: 0.5vw;
@@ -204,6 +256,7 @@
 .total, .pre{
     margin-top: 0.5vw;
     margin-left: 2vw;
+    font-family: child;
 }
 .ahora{
     background-color: #fffcf2;
@@ -214,4 +267,43 @@
     display: flex;
     justify-content: center;
     border-radius: 1vw;
+    font-family: child;
+}
+.menuh{
+    display: none;
+}
+#ham{
+    display: none;
+    opacity: 0;
+}
+@media only screen and (max-width: 440px){
+    .ContenedorPrincipal{
+        height: 213.5vw;
+    }
+    .div1CampusShop{
+        width: 15vw;
+        height: 20vw;
+        transition: 0.5s;
+        display: block;
+    }  
+    .div2Productos{
+        width: 72vw;
+        height: 50vw;
+        border: 1px solid #403d39;
+        background-color: #ccc5b9;
+        margin-top: 20vw;
+        border-radius: 2vw;
+    }
+    #ham,.menuh{
+        display: block;
+        width: 3vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+    }
+    #ham:checked + .div1CampusShop{
+        height: 55vw;
+        width: 24vw;
+        border: 2px solid #403d39;
+    }
+
 }
