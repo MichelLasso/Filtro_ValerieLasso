@@ -1,6 +1,4 @@
-
-
-*Proyecto de Aplicativo Web para CampusShop*
+# Proyecto de Aplicativo Web para CampusShop
 
 En este repositorio podrás encontrar un proyecto que consiste en la continuación de desarrollo de un aplicativo web para gestionar la compra y venta de productos en el E-Commerce "CampusShop". Se proporciona un proyecto base que incluye una ejemplificación funcional de la parte frontal y un servicio trasero que proveerá la información necesaria para su uso. Como desarrollador FrontEnd, el propósito de este trabajo es crear la parte frontal del aplicativo de acuerdo a los requerimientos del cliente, mejorando y expandiendo las funcionalidades existentes.
 
